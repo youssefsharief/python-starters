@@ -2,6 +2,7 @@ Analysers
 * Static
     * pylint
     * Macropy : Check folder
+    * ast (NodeVisitors)
 * Dynamic
     * CProfile
         * Commands
