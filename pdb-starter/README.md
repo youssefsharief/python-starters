@@ -44,13 +44,18 @@
                     * make a list empty to check what would happen
                         * `!cloud = []`
             * Break points
+                * List
+                    * `b`
                 * Set breakpoint
                     * by line
                         * `b 17`
                     * by function name
                         * `b transform`
                 * Clear breakpoint
-                    * `cl`
+                    * Al breakpoints
+                        *  `cl`
+                    * One breakpoint
+                        * `cl 109`
                 * Continue to next breakpoint
                     * `c`
     * Modes

@@ -34,4 +34,10 @@
     * Install our newly uploaded package from PyPi
         * `pip install --index-url https://test.pypi.org/simple/ sample-lib`
             * If you already installed using the `pip install .` command, you might receive a message that the requirement is already installed therefore you could uninstall it first for testing using the `pip uninstall sample_lib`
+
+* Update package on PyPi    
+    * Update version number in `setup.py`
+    * `python setup.py sdist bdist_wheel`
+    * Remove old dist files from **dist** folder
+    * `twine upload dist/*`
     
